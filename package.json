@@ -1,0 +1,19 @@
+{
+  "name": "projetoBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/telegramBot.js",
+    "scrap": "node ./src/scrapper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.6",
+    "node-emoji": "^1.10.0",
+    "node-telegram-bot-api": "^0.52.0",
+    "puppeteer": "^8.0.0"
+  }
+}
